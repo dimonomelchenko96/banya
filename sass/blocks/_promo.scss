@@ -1,0 +1,102 @@
+.promo{
+    padding: 40px 0 220px 0;
+    min-height: 750px;
+    background: url(../img/bg1.jpg) center (center/cover) no-repeat;
+    &__title {
+        margin-top: 122px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        letter-spacing: 0.07em;
+        color: #F8323D;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #444444;
+    }
+    &__list {
+        margin-top: 40px;
+        list-style-type: none;
+        padding-left: 40px;
+        &-item{
+            position: relative;
+            margin-top: 20px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #444444;
+            &::before{
+                content: ('');
+                background-image: url(../icons/check.svg);
+                display: block;
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                left: -40px;
+                top: -3px;
+            }
+        }
+    }
+
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 37%;
+    }
+    &__right{
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        display: block;
+        width: 213px;
+    }
+    &__divider {
+        width: 1px;
+        height: 60px;
+        background-color: #666666;;
+    }
+    &__title {
+        width: 256px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #444444;
+    }
+    &__worktime{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        span{
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222222;
+        }
+    }
+    &__number{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #444444;
+        text-align: center;
+        a {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222222;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@import 'base/variable';
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    width: 1400px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/about';
+@import 'blocks/goods';
+@import 'blocks/project';
+@import 'blocks/contract';
+@import 'blocks/steps';
+@import 'blocks/questions';
+@import 'blocks/more-quest';
+@import 'blocks/footer';
+@import 'blocks/modal&popap';
+@import 'blocks/media';

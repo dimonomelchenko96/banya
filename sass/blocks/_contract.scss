@@ -1,0 +1,39 @@
+.contract{
+    min-height: 864px;
+    padding-top: 150px;
+    background: url(../img/contract_photo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
+    &__items{
+        margin-top: 125px;
+        display: grid;
+        grid-template: repeat(2, minmax(141px, auto)) / repeat(2, 450px);
+        row-gap: 50px;
+        column-gap: 30px;    
+    }
+    &__item{
+        padding-left: 30px;
+        padding-right: 28px;
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    &__text{
+        margin-left: 30px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #444444;
+        span{
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            color: #222222;
+            line-height: 20px;
+        }
+    }
+}

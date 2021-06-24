@@ -1,0 +1,57 @@
+.project{
+    min-height: 850px;
+    padding-top: 30px;
+    background: url(../img/project_bg.jpg) center (center/cover) no-repeat ;
+    &__form-wrapper{
+        width: 410px;
+        min-height: 543px;
+        margin: 130px 0 0 20%;
+        padding: 50px;
+        background: #FFFFFF;
+        box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+    &__form-title{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #222222;
+    }
+    &__form-subtitle {
+        margin-top: 15px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #444444;
+    }
+    &__form-polici{
+        margin-top: 20px;
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #666666;
+    }
+    form{
+        input{
+            margin-top: 30px;
+            padding: 20px;
+            height: 60px;
+            width: 100%;
+            background: #F8F8F8;
+            border: 1px solid #D4D4D4;
+            box-sizing: border-box;
+            border-radius: 20px;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #666666;
+            &:nth-child(2) {
+                margin-top: 20px;
+            }
+        }
+    }
+}

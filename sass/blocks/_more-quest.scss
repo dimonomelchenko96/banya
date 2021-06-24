@@ -1,0 +1,18 @@
+.more-questions{
+    min-height: 500px;
+    padding: 90px 0 200px 0;
+    background: url(../img/MQ-BG.jpg);
+    background-repeat: no-repeat;
+    &__wrapper{
+        padding-top: 40px;
+        margin: 0 auto;
+        width: 930px;
+        height: 200px;
+        background-image: url(../img/card-background-mq.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+}

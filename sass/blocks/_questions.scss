@@ -1,0 +1,87 @@
+.questions{
+    margin-top: 100px;
+    min-height: 1020px;
+    padding: 72px 0 261px 0;
+    background: url(../img/question_girl.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    }
+.accordion{
+    margin-top: 60px;
+
+    &__item{
+        background: #F8F8F8;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        width: 810px;
+        margin-bottom: 25px;
+        &.active {
+            .accordion__content{
+                height: auto;
+                opacity: 1;
+                visibility: visible;
+                padding: 20px 36px 20px 82px;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 20px;
+                color: #777777;
+            }
+            .accordion__arrow{
+                top: 46%;
+                transform: rotate(135deg);  
+                border-bottom: 2px solid #ffffff;
+                border-left: 2px solid #ffffff;
+            }
+            .accordion__gradient{
+                border-radius: 20px 0px 0px 0px;
+                width: 100%;
+            }  
+            .accordion__title{
+                color: #ffffff;
+            }
+        } 
+    }
+    &__header{
+        position: relative;
+        padding: 39px 0 39px 84px;
+    }
+    &__title{
+        position: relative;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #222222;
+    }
+    &__gradient {
+        position: absolute;
+        z-index: 0;
+        display: block;
+        left: 0;
+        bottom: 0;
+        width: 54px;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        background: linear-gradient(90.89deg, #FF5C00 -1.15%, #F8323D 101.02%);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        transition: .3s ease;
+    }
+    &__arrow{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        right: 20px;
+        top: 32%;
+        transform:  rotate(315deg) ;
+        width: 22px;
+        height: 22px;
+        border-bottom: 2px solid #777777 ;
+        border-left: 2px solid #777777;
+        cursor: pointer;
+    }
+    &__content{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        transition: .3s ease;
+    }
+}    
